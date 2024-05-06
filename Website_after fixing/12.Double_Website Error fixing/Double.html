@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Added the language attribute -->
+<head>
+    <title>WhereIs? App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        header {
+            background-color: #f2f2f2;
+            padding: 20px;
+            font-size: 24px;
+            text-align: center;
+        }
+        footer {
+            background-color: #f2f2f2;
+            padding: 10px;
+            font-size: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: #000;
+            color: white;
+            padding: 8px;
+            z-index: 100;
+        }
+        .skip-link:focus {
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <a href="#maincontent" class="skip-link">Skip to main content</a> <!-- Added a skip link for bypassing blocks -->
+    <header role="banner">WhereIs? Find What You Lose</header> <!-- Added role attribute -->
+    <div id="maincontent"> <!-- Added an id for skip link destination -->
+        <h1>Welcome to WhereIs?</h1>
+        <p>Ever lost your keys, wallet, or phone and spent hours searching? Say goodbye to those days. With WhereIs?, you can easily find your lost items with a tap of a button.</p>
+        <p>Download now and start finding your lost items today!</p>
+    </div>
+    <footer role="contentinfo">Contact Us: info@whereisapp.com</footer> <!-- Added role attribute -->
+</body>
+</html>
